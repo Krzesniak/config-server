@@ -1,4 +1,3 @@
 user:
  service:
-  maximum:
-   user: 4
+  maximum: 4
