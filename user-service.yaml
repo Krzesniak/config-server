@@ -1,0 +1,4 @@
+user:
+ service:
+  maximum:
+   user: 4
