@@ -1,0 +1,18 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://server-discovery:8761/eureka/
+
+board:
+  width: 30
+  height: 30
+  window:
+    size: 5
+    testing:
+      size: 3
